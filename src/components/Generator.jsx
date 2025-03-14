@@ -23,7 +23,7 @@ export default function Generator(props) {
 
   const { poison, setPoison, muscles, setMuscles, goals, setGoals, updateWorkout } = props;
 
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
 
   function toggleModal() {
     setShowModal(!showModal);       
